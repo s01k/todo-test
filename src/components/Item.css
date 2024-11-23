@@ -1,0 +1,46 @@
+.completed {
+    text-decoration: line-through;
+    color: #a5a5a5;
+}
+.incomplete{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    color: rgb(86, 3, 94);
+    margin: 0;
+}
+.todo-item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0.7rem;
+    height: 1.975rem;
+    margin: 0 0 6px 0;
+    border-radius: 2px;
+    background-color: #fefefe;
+    font-size: 1rem;
+    font-weight:500;
+}
+.todo-item input {
+    width: 1.05rem;
+    height: 1.05rem;
+    margin: 3px 20px 3px 0px;
+    accent-color: blueviolet;
+}
+.todo-item .item-title{
+    margin-right: auto;
+}
+.todo-item .fa-solid{
+    cursor: pointer;
+    font-size: 1rem;
+    color: blueviolet;
+}
+.todo-item .fa-solid:hover{
+    color: blueviolet;
+}
+@media (min-width: 580px) {
+
+}
