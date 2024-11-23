@@ -21,19 +21,17 @@
 .task-detail-btn{
     width: 5.7rem;
     background-color: transparent;
-    color: blueviolet;
+    color: black;
     outline: none;
-    border: 2px solid blueviolet;
+    border: 2px solid black;
     padding: 6px;
     margin: 2px 1px 2px 1px ;
 }
 
 .task-detail-btn:hover{
-    background-color: blueviolet;
-    border: 2px solid blueviolet;
-    color: white;
+    box-shadow: 2px 2px 2px gray;
 }
 /* .task-detail-btn:active{
     background-color: white !important;
-    color:blueviolet !important;
+    color:black !important;
 } */

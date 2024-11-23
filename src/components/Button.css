@@ -1,6 +1,15 @@
 .btn {
-    width: 4.05rem;
-    border-radius: 2px;
-    /* border: 2px solid white; */
-    padding: 5px;
+    width: 5.7rem;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: 2px solid black;
+    padding: 6px;
+    margin: 2px 1px 2px 1px ;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.btn:hover{
+   box-shadow: 2px 2px 2px gray;
 }

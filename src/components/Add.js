@@ -57,13 +57,13 @@ export default class Add extends Component {
                             />
                         </div>
                     ) : (
-                        <div>
+                        <div className="outer-input">
                             <form onSubmit={this.submitHandler}>
                                 <input
                                     type="text"
                                     id="input"
                                     placeholder={
-                                        this.state.searchBtnActive ? "Search" : "Add todo"
+                                        this.state.searchBtnActive ? "Search" : "Add todo and Press Enter"
                                     }
                                     value={this.state.title}
                                     onChange={this.inputHandler}
